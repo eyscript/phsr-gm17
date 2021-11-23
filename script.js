@@ -687,7 +687,7 @@ class GMechanincs1 extends Phaser.Scene{
        this.load.image("NewScreen4v3", "assets/NewScreen4-9v7.png");
        this.load.image("RET1", "assets/ret3-2.png");
        this.load.image("RET2", "assets/RET1.png");
-       this.load.image("zone", "assets/etiquetaname-1.png");
+       this.load.image("zone", "assets/etiquetaname-2.png");
        this.load.image("fantas", "assets/fantasma.jpg");
        this.load.image("spark", "assets/blue_github.png");
        this.load.image("cloud", "assets/cloudv2.png");
