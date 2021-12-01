@@ -706,7 +706,7 @@ class GMechanincs1 extends Phaser.Scene{
       var juju=this.add.image(515,245, "zone").setOrigin(0.5).setScale(1, 0.5).setInteractive({dropZone:true}).setName("fantas");
       this.tweens.add(   { 
         targets: jiji,
-        y: { value: 155, duration: 1500, ease: 'sine.inOut', yoyo: -1 },
+        y: { value: 300, duration: 1500, ease: 'sine.inOut', yoyo: -1 },
         delay: 3000
 
     });
@@ -714,7 +714,7 @@ class GMechanincs1 extends Phaser.Scene{
      
       this.tweens.add(   { 
         targets: juju,
-        y: { value: 155, duration: 1500, ease: 'sine.inOut', yoyo: -1 },
+        y: { value: 300, duration: 1500, ease: 'sine.inOut', yoyo: -1 },
         delay: 3000
 
     })
