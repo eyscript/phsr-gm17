@@ -715,7 +715,7 @@ class GMechanincs1 extends Phaser.Scene{
       this.tweens.add(   { 
         targets: juju,
         y: { value: 300, duration: 1500, ease: 'sine.inOut', yoyo: -1 },
-        x:{ value: 150},
+        x:{ value: 150, duration: 1500, ease: 'sine.inOut', yoyo: -1},
         delay: 3000
 
     })
